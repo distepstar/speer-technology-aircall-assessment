@@ -20,6 +20,7 @@
     "@fortawesome/react-fontawesome": "^0.2.0",
     "@webpack-cli/serve": "^1.7.0",
     "axios": "^0.27.2",
+    "express": "^4.18.1",
     "i": "^0.3.7",
     "npm": "^8.18.0",
     "postcss": "^8.4.16",
