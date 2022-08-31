@@ -11,8 +11,8 @@
   "license": "",
   "private": false,
   "scripts": {
-    "dev": "NODE_ENV=development webpack serve",
-    "start": "NODE_ENV=development webpack serve",
+    "dev": "NODE_ENV=development webpack serve --openssl-legacy-provider",
+    "start": "NODE_ENV=development webpack serve --openssl-legacy-provider",
     "build": "webpack --mode production",
     "heroku-prebuild": "npm install --dev",
     "heroku-postbuild": "npm run build"
