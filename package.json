@@ -12,7 +12,7 @@
     "start": "NODE_ENV=development webpack serve",
     "prod": "NODE_ENV=production webpack serve",
     "build": "webpack --mode production",
-    "heroku-prebuild": "npm install --saved-dev",
+    "heroku-prebuild": "npm install --save-dev",
     "heroku-postbuild": "npm run build"
   },
   "dependencies": {
