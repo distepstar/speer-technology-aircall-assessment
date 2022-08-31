@@ -5,7 +5,7 @@ module.exports = {
   mode: "development",
   entry: path.resolve(__dirname, "src") + "/index.js",
   output: {
-    publicPath: "/assets",
+    publicPath: "/",
     path: path.resolve(__dirname, "dist"),
     filename: "bundle.js",
   },
@@ -35,7 +35,7 @@ module.exports = {
         include: path.join(__dirname, "src/resources"),
         loader: "file-loader",
         options: {
-          name: "/img/[name].[ext]"
+          name: "[name].[ext]"
 
         }
       },
