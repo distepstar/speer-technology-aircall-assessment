@@ -12,9 +12,8 @@
     "start": "NODE_ENV=development webpack serve",
     "prod": "NODE_ENV=production webpack serve",
     "build": "webpack --mode production",
-    "pro_build": "webpack --mode production --config ./webpack.config.js",
     "heroku-prebuild": "npm install --save-dev",
-    "heroku-postbuild": "npm run pro_build"
+    "heroku-postbuild": "npm run build"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.1.2",
