@@ -9,12 +9,12 @@ npm run dev (Run in dev mode)
 ```
 
 ## Dependencies
-- ** webpack, webpack-cli, webpack-dev-server
-- ** react-router-dom
-- ** tailwindcss
-- ** fontawesome
-- ** axios
-- ** express
+- ** webpack, webpack-cli, webpack-dev-server **
+- ** react-router-dom **
+- ** tailwindcss **
+- ** fontawesome **
+- ** axios **
+- ** express **
 
 ## Heroku Deploy Link
 
