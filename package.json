@@ -10,7 +10,8 @@
   "scripts": {
     "dev": "NODE_ENV=development webpack serve",
     "start": "webpack --mode development --open",
-    "build": "webpack --mode production"
+    "build": "webpack --mode production",
+    "heroku-postbuild": "npm run dev"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.1.2",
