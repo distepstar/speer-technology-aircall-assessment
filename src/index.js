@@ -1,6 +1,14 @@
-import './css/body.css';
-import './css/app.css';
-import './css/header.css';
+import "./css/index.css";
+import React from "react";
+import ReactDOM from "react-dom";
+import App from "./App.jsx";
+import { BrowserRouter } from "react-router-dom";
 
-import App from './App.jsx';
-
+ReactDOM.render(
+  <React.StrictMode>
+    <BrowserRouter forceRefresh={true}>
+      <App />
+    </BrowserRouter>
+  </React.StrictMode>,
+  document.getElementById("app")
+);
