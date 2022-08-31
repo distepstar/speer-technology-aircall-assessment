@@ -14,9 +14,8 @@ export class Viewport extends React.Component {
     return (
       <div className="w-full h-full bg-gray-200" >
         <Switch>
-          <Route exact path="/" component={withRouter(Home)} />
+          <Route path="/" component={withRouter(Feed)} />
           <Route path="/archive" component={withRouter(Archive)} />
-          <Route path="/feed" component={withRouter(Feed)} />
           <Route path="/detail" component={withRouter(Detail)} />
         </Switch>
       </div >

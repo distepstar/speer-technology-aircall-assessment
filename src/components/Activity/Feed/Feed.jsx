@@ -15,7 +15,7 @@ export class Feed extends React.Component {
     super(props);
     this.state = { loading: false, data: [] }
     this.title = "Activity";
-    this.links = [{ name: "Inbox", to: "/feed" }, { name: "All calls", to: "/feed/allcalls" }]
+    this.links = [{ name: "Inbox", to: "/" }, { name: "All calls", to: "/allcalls" }]
 
     this.handleArchiveAll = this.handleArchiveAll.bind(this);
   }
@@ -61,8 +61,8 @@ export class Feed extends React.Component {
           : (
             <div className="flex flex-col w-full h-full justify-center items-center overflow-y-auto">
               <Switch>
-                <Route exact path="/feed" render={() => <Inbox data={this.state.data} handleArchiveAll={this.handleArchiveAll} />} />
-                <Route path="/feed/allcalls" render={() => <Allcalls data={this.state.data} />} />
+                <Route exact path="/" render={() => <Inbox data={this.state.data} handleArchiveAll={this.handleArchiveAll} />} />
+                <Route path="/allcalls" render={() => <Allcalls data={this.state.data} />} />
               </Switch>
             </div>
           )

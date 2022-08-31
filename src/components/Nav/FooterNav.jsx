@@ -4,7 +4,7 @@ import { faUser, faPhone, faTableCells, faGear, faCircleDot } from "@fortawesome
 import { Link, NavLink } from "react-router-dom"
 
 const routes = [
-  { name: 'Feed', path: '/feed', icon: faPhone },
+  { name: 'Feed', path: '/', icon: faPhone },
   { name: 'Detail', path: '/detail', icon: faUser },
   { name: 'Numpad', path: '/numpad', icon: faTableCells },
   { name: 'Settings', path: '/settings', icon: faGear },
