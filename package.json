@@ -13,7 +13,7 @@
   "scripts": {
     "dev": "NODE_ENV=development webpack serve --openssl-legacy-provider",
     "start": "NODE_ENV=development webpack serve --openssl-legacy-provider",
-    "build": "webpack --mode production",
+    "build": "webpack --mode production --openssl-legacy-provider",
     "heroku-prebuild": "npm install --dev",
     "heroku-postbuild": "npm run build"
   },
