@@ -33,7 +33,11 @@ module.exports = {
       {
         test: /\.(ttf|eot|svg|woff(2)?)(\?[a-z0-9=&.]+)?$/,
         include: path.join(__dirname, "src/resources"),
-        loader: "file-loader?name=/img/[name].[ext]",
+        loader: "file-loader",
+        options: {
+          name: "/img/[name].[ext]"
+
+        }
       },
       {
         test: /\.css$/i,
