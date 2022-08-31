@@ -9,7 +9,7 @@
   "private": false,
   "scripts": {
     "dev": "NODE_ENV=development webpack serve",
-    "start": "webpack --mode development --open",
+    "start": "NODE_ENV=development webpack serve",
     "build": "webpack --mode production",
     "heroku-postbuild": "npm run dev"
   },
