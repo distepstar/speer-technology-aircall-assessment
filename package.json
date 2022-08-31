@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "Leap test",
   "main": "index.js",
-  "engines": {
-    "node": "16.17.0"
-  },
   "repository": "",
   "author": "",
   "license": "",
@@ -13,8 +10,9 @@
   "scripts": {
     "dev": "NODE_ENV=development webpack serve",
     "start": "NODE_ENV=development webpack serve",
+    "prod": "NODE_ENV=production webpack serve",
     "build": "webpack --mode production",
-    "heroku-prebuild": "npm install --save",
+    "heroku-prebuild": "npm install --saved-dev",
     "heroku-postbuild": "npm run build"
   },
   "dependencies": {
