@@ -6,6 +6,8 @@
 git clone https://github.com/distepstar/speer-technology-aircall-assessment.git
 npm install
 npm run dev (Run in dev mode)
+or
+npm run start (node express port forwarding)
 ```
 
 ## Dependencies
